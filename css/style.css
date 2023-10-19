@@ -10,12 +10,18 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .header {
@@ -89,4 +95,65 @@ a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.introducao {
+  background-color: #000;
+  color: #fff;
+
+  box-shadow: inset 0 -120px #fff;
+}
+
+.introducao__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px 40px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  max-width: 1200px;
+}
+
+.introducao__conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introducao__conteudo h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.introducao__conteudo h1 span {
+  color: #ffbb00;
+}
+
+.introducao__conteudo p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+
+.introducao__conteudo a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #320;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.introducao__conteudo a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+.introducao__img img {
+  object-fit: cover;
+  height: 100%;
 }
