@@ -2,7 +2,7 @@
 @import "./global/header.css";
 
 /* Utils */
-@import "./utils/components/components.css";
+@import "./utils/components.css";
 
 /* Home */
 @import "./home/introducao.css";
