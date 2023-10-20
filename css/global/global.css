@@ -23,7 +23,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-span.ponto {
-  color: var(--p1);
-}
