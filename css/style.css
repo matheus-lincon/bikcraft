@@ -2,6 +2,7 @@
 
 /* Utils */
 @import "./utils/tipografia.css";
+@import "./utils/cores.css";
 @import "./utils/components.css";
 
 /* Header & Menu */
