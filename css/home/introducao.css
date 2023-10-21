@@ -24,6 +24,7 @@
 .introducao__img img {
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
