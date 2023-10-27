@@ -79,10 +79,6 @@
   .font-1-xxl {
     font-size: 2rem;
   }
-
-  .font-1-xl {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 600px) {
