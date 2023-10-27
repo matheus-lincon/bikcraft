@@ -65,6 +65,10 @@
     justify-self: center;
   }
 
+  .depoimento__conteudo p {
+    font-size: 1.125rem;
+  }
+
   .depoimento img {
     max-height: 200px;
   }
