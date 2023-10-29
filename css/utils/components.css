@@ -42,6 +42,26 @@
   }
 }
 
+/* Botão seta */
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url("../../img/icones/seta.svg");
+  transition: transform 0.2s ease-in-out;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
 /* Botão link */
 .link {
   display: inline-block;
