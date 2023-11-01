@@ -4,6 +4,7 @@
 @import "./utils/tipografia.css";
 @import "./utils/cores.css";
 @import "./utils/components.css";
+@import "./utils/formulario.css";
 
 /* Header & Menu */
 @import "./global/header.css";
@@ -29,6 +30,10 @@
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* Termos */
 @import "./termos/termos.css";
