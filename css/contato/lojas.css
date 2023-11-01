@@ -1,0 +1,70 @@
+.lojas__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 40px;
+
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.lojas__container h2 {
+  margin-bottom: 60px;
+  grid-column: 1 / -1;
+}
+
+.lojas__container img {
+  border-radius: 4px 4px 0 0;
+}
+
+.lojas__item {
+  border-radius: 4px;
+  background-color: var(--c0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lojas__conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 16px;
+  padding: 32px;
+}
+
+.lojas__conteudo h3,
+.lojas__conteudo > p {
+  grid-column: 1 / -1;
+}
+
+.lojas__dados {
+  display: grid;
+  gap: 8px;
+  border-left: 2px solid var(--c2);
+  padding-left: 12px;
+}
+
+.lojas__conteudo > p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 800px) {
+  .lojas__container {
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .lojas__container h2 {
+    margin-bottom: 32px;
+  }
+
+  .lojas__conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .lojas__container {
+    grid-template-columns: 1fr;
+  }
+}
