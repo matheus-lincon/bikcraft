@@ -16,6 +16,9 @@
   flex-direction: column;
   align-items: end;
   overflow: hidden;
+
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
 }
 
 .depoimento__conteudo blockquote {
