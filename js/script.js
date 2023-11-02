@@ -67,3 +67,8 @@ const trocarImagem = (event) => {
 galeria.forEach((imagem) => {
   imagem.addEventListener("click", trocarImagem)
 })
+
+/* Animação */
+if (window.SimpleAnime) {
+  new SimpleAnime()
+}
