@@ -26,6 +26,7 @@
   flex: 1;
   min-width: 200px;
   height: auto;
+  cursor: pointer;
 }
 
 .bicicleta__img img:first-child {

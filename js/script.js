@@ -41,3 +41,29 @@ const ativarPergunta = (event) => {
 perguntas.forEach((pergunta) => {
   pergunta.addEventListener("click", ativarPergunta)
 })
+
+/* Galeria de imagens
+
+img1
+img2 (click)
+img3
+
+img = img2.src (x)
+primeiraImg = img1.src (y)
+troca (z) = x (img)
+x (img) = y (primeiraImg)
+y (primeiraImg) = z (troca)
+
+
+*/
+const galeria = document.querySelectorAll(".bicicleta__img img")
+const galeriaContainer = document.querySelector(".bicicleta__img")
+
+const trocarImagem = (event) => {
+  let img = event.currentTarget
+  if (matchMedia("(min-width: 1000px)").matches) galeriaContainer.prepend(img)
+}
+
+galeria.forEach((imagem) => {
+  imagem.addEventListener("click", trocarImagem)
+})
