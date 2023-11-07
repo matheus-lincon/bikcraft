@@ -49,7 +49,9 @@
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
+}
 
+.js .perguntas__container dd {
   display: none;
 }
 
